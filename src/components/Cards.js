@@ -15,7 +15,7 @@ function Cards() {
               utilizes HTML and CSS to easily sort and organize tasks by completion status as well as 
               by the date they were added, making it simple to prioritize and manage a busy schedule.'
               label='To-Do List'
-              path='/services'
+              path='https://dennisliangshu.github.io/to-do-list/'
             />
             <CardItem
               src='images/img-2.jpg'
