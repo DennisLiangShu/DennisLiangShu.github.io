@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dennisliangshu.github.io/static/css/main.f6d7ba57.css",
+    "main.js": "/dennisliangshu.github.io/static/js/main.d16007a1.js",
+    "static/js/787.fb771931.chunk.js": "/dennisliangshu.github.io/static/js/787.fb771931.chunk.js",
+    "index.html": "/dennisliangshu.github.io/index.html",
+    "main.f6d7ba57.css.map": "/dennisliangshu.github.io/static/css/main.f6d7ba57.css.map",
+    "main.d16007a1.js.map": "/dennisliangshu.github.io/static/js/main.d16007a1.js.map",
+    "787.fb771931.chunk.js.map": "/dennisliangshu.github.io/static/js/787.fb771931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f6d7ba57.css",
+    "static/js/main.d16007a1.js"
+  ]
+}
