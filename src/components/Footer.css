@@ -1,0 +1,45 @@
+.footer-container {
+    background-color: #242424;
+    padding: 3rem;
+}
+
+.footer-contact {
+    width: 60%;
+    margin-left: 2rem;
+}
+
+.footer-contact > h1 {
+    padding-bottom:2rem;
+    color: #757cf0;
+    text-align: left;
+}
+
+.footer-center i {
+    background-color: #33383b;
+    color: #757cf0;
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.footer-center p {
+    display: inline-block;
+    color: #757cf0;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 1.1rem;
+}

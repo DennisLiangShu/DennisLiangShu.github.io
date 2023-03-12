@@ -1,0 +1,54 @@
+.about {
+    padding: 6rem 3rem 2rem 3rem;
+    background: #444EF2;
+}
+
+.flexItem > p {
+    text-align: justify;
+    font-size: 1.3rem;
+}
+
+.about > h1 {
+    text-align: center;
+    padding-bottom:4rem;
+    color: #242424;
+}
+
+.flexContainer {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 30px;
+}
+
+.flexItem {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    min-width: 300px;
+    margin-right: 2.5px;
+    text-align: center;
+}
+
+.iconImg {
+    width: 50%;
+}
+
+.experienceImg {
+    width: 70%;
+}
+
+@media screen and (max-width: 1200px) {
+    .flexItem > p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 1005px) {
+    .flexItem {
+        min-width: 100%;
+    }
+
+    .flexItem > p {
+        font-size: 1.1rem;
+    }
+}
