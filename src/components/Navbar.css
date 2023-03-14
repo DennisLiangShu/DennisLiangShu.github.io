@@ -75,6 +75,7 @@
     display: none;
   }
   
+  
   @media screen and (max-width: 1030px) {
     .NavbarItems {
       position: relative;
@@ -154,4 +155,11 @@
       color: #242424;
       transition: 250ms;
     }
+}
+
+@media screen and (max-width: 410px) {
+  .navbar-logo {
+    font-size: 1.6rem;
+    transform: translate(25%, 75%);
+  }
 }

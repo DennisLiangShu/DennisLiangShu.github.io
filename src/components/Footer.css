@@ -43,3 +43,23 @@
     margin: 0;
     font-size: 1.1rem;
 }
+
+@media screen and (max-width: 491px) {
+    .footer-center p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 441px) {
+    .footer-center p {
+        display: none;
+    }
+
+    .footer-center {
+        display: flex;
+    }
+
+    .mbl-icon {
+        width: 35%;
+    }
+}
