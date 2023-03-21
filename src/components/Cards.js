@@ -10,6 +10,28 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
+              src='images/img-4.jpg'
+              text='This fully responsive portfolio website that you are on right now is built using 
+              HTML, CSS, JavaScript and React JS. The web components utilize React Hooks 
+              to implement state and props. The website itself is hosted using GitHub pages fully integrated with React JS.'
+              label='Portfolio Website'
+              path='/'
+              link='/'
+              git='https://github.com/DennisLiangShu/dennisliangshu.github.io'
+            />
+
+            <CardItem
+              src='images/img-5.jpg'
+              text='This web application functions as a word frequency tracker as well as a word
+              counter for user uploaded .txt files. It parses through the uploaded file and uses 
+              a Hashmap to map words to frequency numbers while also calculating the total word count. '
+              label='Word Count Program'
+              path='https://dennisliangshu.github.io/text-word-counter-/'
+              link='https://dennisliangshu.github.io/text-word-counter-/'
+              git='https://github.com/DennisLiangShu/text-word-counter-'
+            />
+
+            <CardItem
               src='images/img-1.jpg'
               text='This JavaScript-based to-do list application offers a user-friendly interface that 
               utilizes HTML and CSS to easily sort and organize tasks by completion status as well as 
@@ -19,6 +41,8 @@ function Cards() {
               link='https://dennisliangshu.github.io/to-do-list/'
               git='https://github.com/DennisLiangShu/to-do-list'
             />
+          </ul>
+          <ul className='cards__items'>
             <CardItem
               src='images/img-2.jpg'
               text='This web application is a sophisticated inventory management system that 
@@ -40,29 +64,7 @@ function Cards() {
               git='https://cis-linux2.temple.edu/~tul14986/project/index.php'
             />
           </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/img-4.jpg'
-              text='This fully responsive portfolio website that you are on right now is built using 
-              HTML, CSS, JavaScript and React JS. The web components utilize React Hooks 
-              to implement state and props while the website itself is hosted on GitHub pages.'
-              label='Portfolio Website'
-              path='/'
-              link='/'
-              git='https://github.com/DennisLiangShu/dennisliangshu.github.io'
-            />
 
-            <CardItem
-              src='images/img-5.jpg'
-              text='This Java application functions as a word frequency tracker as well as a word
-              counter for user uploaded .txt files. It parses through the uploaded file and uses 
-              a Hashmap to map words to frequency numbers while also using a running count of words parsed. '
-              label='Word Count Program'
-              path='https://github.com/DennisLiangShu/text-word-counter-'
-              link='https://github.com/DennisLiangShu/text-word-counter-'
-              git='https://github.com/DennisLiangShu/text-word-counter-'
-            />
-          </ul>
         </div>
       </div>
     </div>
