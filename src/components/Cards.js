@@ -32,18 +32,6 @@ function Cards() {
             />
 
             <CardItem
-              src='images/img-1.jpg'
-              text='This JavaScript-based to-do list application offers a user-friendly interface that 
-              utilizes HTML and CSS to easily sort and organize tasks by completion status as well as 
-              by the date they were added, making it simple to prioritize and manage a busy schedule.'
-              label='To-Do List'
-              path='https://dennisliangshu.github.io/to-do-list/'
-              link='https://dennisliangshu.github.io/to-do-list/'
-              git='https://github.com/DennisLiangShu/to-do-list'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
               src='images/img-2.jpg'
               text='This web application is a sophisticated inventory management system that 
               seamlessly integrates various technologies such as JavaScript, JSP, Ajax calls, 
@@ -52,6 +40,21 @@ function Cards() {
               path='http://cis-linux2.temple.edu:8080/SP22_3308_tul14986'
               link='http://cis-linux2.temple.edu:8080/SP22_3308_tul14986'
               git='http://cis-linux2.temple.edu:8080/SP22_3308_tul14986'
+            />
+
+          </ul>
+          {/*
+          <ul className='cards__items'>
+            
+            <CardItem
+              src='images/img-1.jpg'
+              text='This JavaScript-based to-do list application offers a user-friendly interface that 
+              utilizes HTML and CSS to easily sort and organize tasks by completion status as well as 
+              by the date they were added, making it simple to prioritize and manage a busy schedule.'
+              label='To-Do List'
+              path='https://dennisliangshu.github.io/to-do-list/'
+              link='https://dennisliangshu.github.io/to-do-list/'
+              git='https://github.com/DennisLiangShu/to-do-list'
             />
 
             <CardItem
@@ -65,7 +68,7 @@ function Cards() {
               git='https://github.com/DennisLiangShu/text-word-counter-'
             />
           </ul>
-
+  */}
         </div>
       </div>
     </div>
