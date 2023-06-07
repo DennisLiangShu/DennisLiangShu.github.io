@@ -21,14 +21,14 @@ function Cards() {
             />
 
             <CardItem
-              src='images/img-5.jpg'
-              text='This web application functions as a word frequency tracker as well as a word
-              counter for user uploaded .txt files. It parses through the uploaded file and uses 
-              a Hashmap to map words to frequency numbers while also calculating the total word count. '
-              label='Word Count Program'
-              path='https://dennisliangshu.github.io/text-word-counter-/'
-              link='https://dennisliangshu.github.io/text-word-counter-/'
-              git='https://github.com/DennisLiangShu/text-word-counter-'
+              src='images/img-3.jpg'
+              text='This web application functions as a secure user login/logoff system that features 
+              an email authentication code, user registration and password reset functionality built 
+              using PHP sessions, CSS Boostrap and a back-end MySQL database that stores user information.'
+              label='Secure User Login System'
+              path='https://cis-linux2.temple.edu/~tul14986/project/index.php'
+              link='https://cis-linux2.temple.edu/~tul14986/project/index.php'
+              git='https://cis-linux2.temple.edu/~tul14986/project/index.php'
             />
 
             <CardItem
@@ -53,15 +53,16 @@ function Cards() {
               link='http://cis-linux2.temple.edu:8080/SP22_3308_tul14986'
               git='http://cis-linux2.temple.edu:8080/SP22_3308_tul14986'
             />
+
             <CardItem
-              src='images/img-3.jpg'
-              text='This web application functions as a secure user login/logoff system that features 
-              an email authentication code, user registration and password reset functionality built 
-              using PHP sessions, CSS Boostrap and a back-end MySQL database that stores user information.'
-              label='Secure User Login System'
-              path='https://cis-linux2.temple.edu/~tul14986/project/index.php'
-              link='https://cis-linux2.temple.edu/~tul14986/project/index.php'
-              git='https://cis-linux2.temple.edu/~tul14986/project/index.php'
+              src='images/img-5.jpg'
+              text='This web application functions as a word frequency tracker as well as a word
+              counter for user uploaded .txt files. It parses through the uploaded file and uses 
+              a Hashmap to map words to frequency numbers while also calculating the total word count. '
+              label='Word Count Program'
+              path='https://dennisliangshu.github.io/text-word-counter-/'
+              link='https://dennisliangshu.github.io/text-word-counter-/'
+              git='https://github.com/DennisLiangShu/text-word-counter-'
             />
           </ul>
 
