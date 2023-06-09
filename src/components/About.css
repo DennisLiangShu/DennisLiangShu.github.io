@@ -1,17 +1,25 @@
 .about {
     padding: 6rem 3rem 2rem 3rem;
-    background: #444EF2;
 }
 
-.flexItem > p {
+.backgroundDiv {
+    background-color: #00C1D3;
+    padding: 2rem;
+    transform: skew(3deg);
+    transition: transform .5s;
+}
+
+.aboutPara {
     text-align: justify;
     font-size: 1.3rem;
+    color: #ffff;
+    transform: skew(-3deg);
 }
 
-.about > h1 {
+.aboutHead {
     text-align: center;
-    padding-bottom:4rem;
-    color: #242424;
+    padding-bottom: 1.5rem;
+    color: #ffff;
 }
 
 .flexContainer {
@@ -30,15 +38,30 @@
 }
 
 .iconImg {
-    width: 50%;
+    width: 30%;
+    margin: 1.5rem;
 }
 
-.experienceImg {
-    width: 70%;
+.grid-container {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    /* 4 rows */
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columns */
+    gap: 10px;
+    /* Gap between grid items */
+    justify-items: center;
+    /* Center the items horizontally */
+    align-items: center;
+    /* Center the items vertically */
+}
+
+.grid-item {
+    padding: 10px;
 }
 
 @media screen and (max-width: 1200px) {
-    .flexItem > p {
+    .aboutPara {
         font-size: 0.9rem;
     }
 }
@@ -48,7 +71,22 @@
         min-width: 100%;
     }
 
-    .flexItem > p {
+    .aboutPara {
         font-size: 1.1rem;
+    }
+
+    .grid-container {
+        display: none;
+    }
+
+    .iconImg {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    .aboutPara {
+        font-size: 0.8rem;
     }
 }

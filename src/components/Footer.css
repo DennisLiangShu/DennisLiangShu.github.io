@@ -10,13 +10,13 @@
 
 .footer-contact > h1 {
     padding-bottom:2rem;
-    color: #757cf0;
+    color: #00C1D3;
     text-align: left;
 }
 
 .footer-center i {
     background-color: #33383b;
-    color: #757cf0;
+    color: #00C1D3;
     font-size: 25px;
     width: 40px;
     height: 40px;
@@ -38,7 +38,7 @@
 
 .footer-center p {
     display: inline-block;
-    color: #757cf0;
+    color: #00C1D3;
     vertical-align: middle;
     margin: 0;
     font-size: 1.1rem;

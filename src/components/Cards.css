@@ -67,7 +67,7 @@ h1 {
     font-size: 15px;
     font-weight: 700;
     color: #fff;
-    background-color: #444EF2;
+    background-color: #00C1D3;
     box-sizing: border-box;
     border-radius: 5px 5px 0 0;
 }
@@ -109,7 +109,7 @@ h1 {
 .cards__item__btn {
     display: inline-block;
     border-radius: 4px;
-    background-color: #444EF2;
+    background-color: #00C1D3;
     border: none;
     color: #FFFFFF;
     text-align: center;

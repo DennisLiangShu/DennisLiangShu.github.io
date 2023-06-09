@@ -18,17 +18,6 @@
     max-width: 1900px;
   }
   
-  .navbar-logo {
-    color: #444EF2;
-    justify-self: start;
-    margin-left: 20px;
-    cursor: pointer;
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-    align-items: center;
-  }
-  
   .fa-typo3 {
     margin-left: 0.5rem;
     font-size: 1.8rem;
@@ -40,7 +29,7 @@
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 60vw;
+    width: 80vw;
     justify-content: end;
     margin-right: 2rem;
   }
@@ -50,7 +39,7 @@
   }
   
   .nav-links {
-    color: #444EF2;
+    color: #00C1D3;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -59,12 +48,12 @@
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid #444EF2;
+    border-bottom: 4px solid #00C1D3;
     transition: all 0.2s ease-out;
   }
   
   .fa-bars {
-    color: #444EF2;
+    color: #00C1D3;
   }
   
   .nav-links-mobile {
@@ -108,7 +97,7 @@
     }
   
     .nav-links:hover {
-      background-color: #444EF2;
+      background-color: #00C1D3;
       color: #242424;
       border-radius: 0;
     }
@@ -131,7 +120,7 @@
     }
   
     .fa-times {
-      color: #444EF2;
+      color: #00C1D3;
       font-size: 2rem;
     }
   
@@ -144,14 +133,14 @@
       text-decoration: none;
       font-size: 1.5rem;
       background-color: transparent;
-      color: #444EF2;
+      color: #00C1D3;
       padding: 14px 20px;
-      border: 1px solid #444EF2;
+      border: 1px solid #00C1D3;
       transition: all 0.3s ease-out;
     }
   
     .nav-links-mobile:hover {
-      background: #444EF2;
+      background: #00C1D3;
       color: #242424;
       transition: 250ms;
     }
