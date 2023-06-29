@@ -15,7 +15,7 @@ const ParticlesComponent = () => {
       fpsLimit: 60,
       particles: {
         color: {
-          value: ["#FFFFFF", "#FF6B6B", "#F9A825", "#00C1D3"], // Add the desired colors to the array
+          value: ["#FFFFFF", "#FF6B6B", "#F9A825", "#00C1D3"], // colors of particles
         },
         number: {
           value: 400, // Adjust the number of particles 
@@ -42,7 +42,7 @@ const ParticlesComponent = () => {
         },
         move: {
           enable: true,
-          speed: 0.5, // Adjust the speed of particle movement as desired
+          speed: 0.5, // Adjust the speed of particle movement
           direction: "top",
           random: true,
           straight: false,
