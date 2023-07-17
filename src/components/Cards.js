@@ -33,13 +33,14 @@ function Cards() {
 
             <CardItem
               src='images/img-2.jpg'
-              text='This web application is a sophisticated inventory management system that 
-              seamlessly integrates various technologies such as JavaScript, JSP, Ajax calls, 
-              MySQL, HTML, and CSS to provide an intuitive user experience for managing inventory.'
-              label='Inventory Management System'
-              path='http://cis-linux2.temple.edu:8080/SP22_3308_tul14986'
-              link='http://cis-linux2.temple.edu:8080/SP22_3308_tul14986'
-              git='http://cis-linux2.temple.edu:8080/SP22_3308_tul14986'
+              text='This weather web application utilizes ReactJS, Bootstrap, and ChartJS to provide 
+              an intuitive user experience for accessing weather information. By integrating the 
+              OpenWeather API and OpenCageData API, users can obtain accurate weather data for 
+              different locations.'
+              label='Weather App (in progress)'
+              path='https://dennisliangshu.github.io/weatherapp/'
+              link='https://dennisliangshu.github.io/weatherapp/'
+              git='https://github.com/DennisLiangShu/weatherapp'
             />
 
           </ul>

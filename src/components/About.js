@@ -5,21 +5,12 @@ import { useInView } from 'react-intersection-observer';
 import FadeInGrid from './FadeIn';
 
 function About() {
-  const controls1 = useAnimation();
   const controls2 = useAnimation();
   const controls3 = useAnimation();
-  const [ref1, inView1] = useInView();
   const [ref2, inView2] = useInView();
   const [ref3, inView3] = useInView();
 
 
-  useEffect(() => {
-    if (inView1) {
-      controls1.start('visible');
-    } else {
-      controls1.start('hidden');
-    }
-  }, [controls1, inView1]);
 
   useEffect(() => {
     if (inView2) {
@@ -37,31 +28,16 @@ function About() {
     }
   }, [controls3, inView3]);
 
-  const animationVariants1 = {
-    hidden: {
-      opacity: 0,
-      y: 200,
-    },
-    visible: {
-      opacity: 1,
-      y: 0,
-      transition: {
-        duration: 1.5,
-        ease: 'easeOut',
-      },
-    },
-  };
-
   const animationVariants2 = {
     hidden: {
       opacity: 0,
-      x: -200,
+      x: -100,
     },
     visible: {
       opacity: 1,
       x: 0,
       transition: {
-        duration: 2,
+        duration: 1,
         ease: 'easeOut',
       },
     },
@@ -70,13 +46,13 @@ function About() {
   const animationVariants3 = {
     hidden: {
       opacity: 0,
-      x: -300,
+      y: 100,
     },
     visible: {
       opacity: 1,
-      x: 0,
+      y: 0,
       transition: {
-        duration: 0.8,
+        duration: 1,
         ease: 'easeOut',
       },
     },
@@ -102,25 +78,18 @@ function About() {
             variants={animationVariants3}
           >
             <div className="backgroundDiv">
-              <motion.div
-                ref={ref1}
-                initial="hidden"
-                animate={controls1}
-                variants={animationVariants1}
-              >
+              
                 <p className='aboutPara'>
-                  I'm a graduate of Temple University with experience primarily in the front-end and a
-                  growing interest in full-stack development. My work with HTML, CSS and JavaScript
-                  has given me a strong foundation in front-end web development, and I have contributed
-                  to various projects that utilize these technologies. As a computer science major, I have
-                  gained a comprehensive understanding of programming concepts and techniques, allowing me
-                  to solve complex problems in a variety of domains. With my skills and experience, I am
-                  excited to expand my knowledge and explore the possibilities of full-stack development.
-                  I believe that a career in software development, with a focus on both front-end and
-                  back-end technologies, will allow me to make meaningful contributions to the field
-                  while continuously challenging and improving my skills.
+                I am a highly skilled and versatile computer science graduate with a passion for web development. 
+                With a strong foundation in Java, JavaScript, React, Node.js, and other modern technologies, 
+                I possess the technical expertise to create innovative and dynamic web applications. My proficiency 
+                in HTML5, CSS, and various frameworks such as Bootstrap and Next.js allows me to design visually 
+                appealing and responsive user interfaces. With experience in database management using MySQL and 
+                proficiency in version control systems like Git, I ensure efficient and organized development 
+                processes. I leverage my knowledge of Agile and Scrum methodologies to deliver high-quality 
+                results within strict timelines. With a keen eye for detail and a commitment to excellence, 
+                I consistently demonstrate my ability to transform ideas into functional and user-friendly web experiences.
                 </p>
-              </motion.div>
             </div>
           </motion.div>
         </div>
